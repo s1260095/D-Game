@@ -3,6 +3,10 @@
 #include<time.h>
 int main(){
   int sum,num1,num2;
+  char name[256];
+  printf("What is your name?\n");
+  scanf("%s",name);
+  printf("Hello, %s\n",name);
   printf("Rolling the dice\n");
   srand(time(NULL));
   num1=rand()%6+1;
