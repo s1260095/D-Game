@@ -17,7 +17,10 @@ int main(){
   printf("Total value: %d\n",sum);
   if(sum>6)
     printf("%s won\n",name);
+ 
   else
     printf("%s lost\n",name);
+
+  printf("Thank you for using this game!!")
   return 0;
 }
